@@ -1,1 +1,1 @@
-# Ticket yönetimi yapan. İş akışı kontrolü uygulaması.
+# Ticket yönetimi yapan iş akışı kontrolü uygulaması.
