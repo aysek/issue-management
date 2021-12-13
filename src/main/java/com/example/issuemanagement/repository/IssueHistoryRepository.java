@@ -1,4 +1,4 @@
-package com.example.issuemanagement.repo;
+package com.example.issuemanagement.repository;
 
 import com.example.issuemanagement.entity.IssueHistory;
 import org.springframework.data.jpa.repository.JpaRepository;

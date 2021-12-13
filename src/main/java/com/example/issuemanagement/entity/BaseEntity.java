@@ -21,15 +21,19 @@ public class BaseEntity implements Serializable {//Serializable nesnenin network
 
         @Column(name = "created_at")
         @Temporal(TemporalType.TIMESTAMP)//tarihi alış şeklini belirler ms ye kadar alabilmek için
-    private Date createdAt; //ne zaman eklendi
+        private Date createdAt; //ne zaman eklendi
+
         @Column(name = "created_by",length = 100)
-    private String createdBy; //kim ekledi
+         private String createdBy; //kim ekledi
+
         @Column(name = "updated_at")
-    private Date updatedAt; //ne zaman güncellendi
+        private Date updatedAt; //ne zaman güncellendi
+
         @Column(name = "updated_by")
-    private String updatedBy; //kim güncelledi
+        private String updatedBy; //kim güncelledi
+
         @Column(name = "status")
-    private Boolean status; // kayıt aktif veya değil
+        private Boolean status; // kayıt aktif veya değil
 
 
 }

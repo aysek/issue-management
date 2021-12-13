@@ -36,4 +36,9 @@ public class Issue extends BaseEntity{
     @ManyToOne(optional = true,fetch = FetchType.LAZY )//birçok issue classı bir tane usera bağlanabilir
     private User assignee;
 
+    @JoinColumn(name = "project_id")
+    @ManyToOne(optional = true,fetch = FetchType.LAZY)
+    private Project project;
+
+
 }
