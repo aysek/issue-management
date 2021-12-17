@@ -1,8 +1,8 @@
 package com.example.issuemanagement.entity;
 
-public enum IssueStatus {
 //open,closed,in_Progress,resolved  - işin olabilecek durumları
 
+public enum IssueStatus {
     OPEN,
     CLOSED,
     IN_REVIEW,

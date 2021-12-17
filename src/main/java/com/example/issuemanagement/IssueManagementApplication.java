@@ -12,9 +12,7 @@ public class IssueManagementApplication {
 		SpringApplication.run(IssueManagementApplication.class, args);
 	}
 
-		@Bean//uygulama contextine dahil etmek için
-	public ModelMapper getModelMapper(){
-		return new ModelMapper();
-	}
+
+
 
 }

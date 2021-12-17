@@ -27,7 +27,7 @@ public class Issue extends BaseEntity{
     @Temporal(TemporalType.TIMESTAMP)
     private Date date;               //iş ne zaman açılmış
 
-    @Column(name = "description")
+    @Column(name = "issue_status")
    @Enumerated(EnumType.STRING)
     private IssueStatus issueStatus;//işin durumunu belirlemek için yapıldı(open,closed...)
 
