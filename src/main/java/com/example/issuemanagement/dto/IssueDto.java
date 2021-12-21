@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-
+//restfull apilerimizle yayınlayacağımız neslerimiz dto katmanındaki nesneler
 public class IssueDto {
 
     private Long id;
